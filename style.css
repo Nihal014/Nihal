@@ -1,0 +1,375 @@
+.navbar{
+    background-color: #111111;
+}
+.navbar .navbar-brand {
+    color: aliceblue;
+    opacity: .8;
+}
+.navbar .navbar-nav .nav-item a{ 
+    color: aliceblue;
+    opacity: .8;
+    margin-left: 25px;
+}
+body{
+    font-family: Montserrat, sans-serif;
+    background-color: #111111
+}
+.navbar .navbar-nav .nav-item a:hover{
+    opacity: 1;
+    color: rgb(11, 223, 167);
+}
+.navbar .navbar-brand:hover {
+    opacity: 1;
+    color: rgb(11, 223, 167);
+}
+.landing h4{
+color: #f8f8f8;
+font-size: 20px;
+    font-weight: 400;
+}
+
+.landing h1{
+    color: #f8f8f8;
+    font-size: 96px;  
+    font-weight: 600;
+}
+.landing h1 span{
+    background-image: linear-gradient(to right, #0d8cdd , #15d1ca);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.landing p{
+    color: rgb(161, 161, 161);
+    font-size: 18px;
+}
+.landing .btn{
+    background-image: linear-gradient(to right, #0d8cdd , #15d1ca);
+    color:#f8f8f8;
+    width: 150px;
+    height: 50px;
+    font-weight: 600;
+    border-radius: 10px;
+  
+}
+.vertical-center {
+    min-height: 100%;  
+    min-height: 90vh; 
+  
+    display: flex;
+    align-items: center;
+    
+  }
+  .end h3{
+    color: rgb(249, 249, 249);
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  .end i{
+    font-size: 20px;
+    color: rgb(161, 161, 161);
+    padding-right: 15px;
+    padding-bottom: 20px;
+  }
+  .end p{
+    color:#f8f8f8;
+    font-size: 14px;
+  }
+  .end p:hover{
+    color: rgb(11, 223, 167);;
+  }
+  .end i:hover{
+    color: rgb(11, 223, 167);;
+  }
+  .end h3:hover{
+    color: rgb(11, 223, 167);;
+  }
+.aboutme h1{
+  font-size: 60px;
+    font-weight: 600;
+    color: rgb(250, 250, 250);
+}
+.aboutme h3{
+  color: rgb(21, 215, 200);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 40px;
+}
+.aboutme h2{
+  color: rgb(250, 250, 250);
+    font-size: 26px;
+    font-weight: 900;
+    padding-top: 5px;
+}
+.aboutme p{
+  color: rgb(250, 250, 250);
+
+}
+.aboutme span{
+  color: rgb(21, 215, 200);
+}
+.aboutme table{
+  color: rgb(250, 250, 250);
+}
+.aboutme .btn{
+  background-image: linear-gradient(to right, #0d8cdd , #15d1ca);
+} 
+.aboutme .p1{
+
+padding-top: 5px;
+}
+.aboutme .p3{
+  padding-top: 16px;
+}
+.aboutme{
+  padding-bottom: 40px;
+  margin-top: 38px;
+}
+.timeline h1{
+  font-size: 60px;
+    font-weight: 600;
+    color: rgb(250, 250, 250);
+}
+.timeline .verticalLine{
+  border-left: 1px solid #dee2e6!important;
+  height: 50px;
+  margin-left: 11px;
+  margin-right: 11px;
+  
+  
+}
+.timeline .verticalLine2{
+  border-left: 1px solid #dee2e6!important;
+  height: 32px;
+  margin-left: 11px;
+  margin-right: 11px;
+  
+  
+}
+.timeline .verticalLine3{
+  border-left: 1px solid #dee2e6!important;
+  height: 73px;
+  margin-left: 11px;
+  margin-right: 11px;
+  
+  
+}
+.timeline .badgeEle{
+  border-radius: 100%;
+  height: 25px;
+  width: 25px;
+  border: 2px solid rgb(11, 223, 167);;
+}
+.timeline .card{
+  background-color: #1a1a1a;
+  height: 100px;
+  width: 1100px;
+  margin-left: -45px;
+  margin-top: 35px;
+}
+.timeline .card-body h4{
+  font-size: 15px;
+    color: rgb(21, 215, 200);
+}
+.timeline .card-body h5{
+  font-size: 15px;
+    color: rgb(250, 250, 250);
+}
+.timeline .card-body p{
+  color: rgb(250, 250, 250);
+}
+.projects h1{
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(250, 250, 250);
+}
+.projects .card{
+  
+  background-color: rgb(26, 26, 26);
+    border: none;
+    border-radius: 15px;
+    margin-top: 50px;
+    width: 600px;
+    height: 120px;
+  
+  
+}
+.projects .card-body p{
+  color: rgb(21, 215, 200);
+
+}
+.projects span .badge {
+  background-color: rgb(21, 215, 200);
+    color: rgb(250, 250, 250);
+}
+.projects a{
+  color: rgb(250, 250, 250);
+}
+.projects .card .card-body span{
+  background-image: linear-gradient(to right, #0d8cdd , #15d1ca);
+  color: #111111;
+  
+
+}
+.contactme h1{
+  font-size: 60px;
+  font-weight: 600;
+  color: rgb(250, 250, 250);
+
+}
+.contactme .form-control{
+  background-color: #111111;
+  border-radius: 10px;
+    font-size: 16px;
+    height: 50px;
+    color:rgb(250, 250, 250); ;
+}
+.contactme .btn{
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #0d8cdd , #15d1ca);
+}
+.contactme  form  .success{
+  color: green;
+}
+.end{
+  padding-top: 45px;
+}
+.navbar-toggler{
+  background-image: linear-gradient(to right, #0d8cdd , #15d1ca);
+}
+@media (max-width:991px) {
+  .landing h4{
+    
+    font-size: 16px;
+        
+    }
+    
+    .landing h1{
+        
+        font-size: 66px;  
+        
+    }
+    
+    .landing p{
+        
+        font-size: 15px;
+    }
+    
+}
+@media (max-width:450px){
+  .end h3{
+    
+    font-size: 12px;
+    
+  }
+  .end i{
+    font-size: 16px;
+    
+    
+  }
+  .end p{
+    
+    font-size: 14px;
+  }
+}
+@media (max-width:400px) {
+  .projects h1{
+    font-size: 45px;
+    
+  }
+  .projects .card{
+    
+    
+      width: 300px;
+      height: 140px;
+    
+    
+  }
+}
+
+@media (max-width:400px){
+  .contactme h1{
+    font-size: 35px;
+    
+  
+  }
+  .contactme .form-control{
+    
+      font-size: 16px;
+      height: 40px;
+      width: 300px;
+      margin-top: 40px;
+      
+  }
+  .contactme .btn{
+    width: 300px;
+    margin-left: 12px;
+  }
+}
+
+
+@media (max-width:1000px){
+  .timeline .card{
+    
+    height: 100px;
+    width: 700px;
+    margin-left: -8px;
+    margin-top: 35px;
+  }
+  .timeline .card-body h4{
+    font-size: 15px;
+      
+  }
+  .timeline .card-body h5{
+    font-size: 15px;
+      
+  }
+}
+
+@media (max-width:780px){
+  .timeline .card{
+    
+    height: 100px;
+    width: 360px;
+    margin-left: -8px;
+    margin-top: 35px;
+  }
+  .timeline .card-body h4{
+    font-size: 15px;
+      
+  }
+  .timeline .card-body h5{
+    font-size: 15px;
+      
+  }
+  .timeline .verticalLine{
+    border-left: 1px solid #dee2e6!important;
+    height: 0px;
+    margin-left: 1px;
+    margin-right: 1px;
+    
+    
+  }
+  .timeline .verticalLine2{
+    border-left: 1px solid #dee2e6!important;
+    height: 0px;
+    margin-left: 11px;
+    margin-right: 11px;
+    
+    
+  }
+  .timeline .verticalLine3{
+    border-left: 1px solid #dee2e6!important;
+    height: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+    
+  }
+  .timeline .badgeEle{
+    border-radius: 0%;
+    height: 0px;
+    width: 0px;
+    border: 0px solid rgb(11, 223, 167);;
+  }
+}
