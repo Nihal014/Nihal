@@ -373,3 +373,12 @@ padding-top: 5px;
     border: 0px solid rgb(11, 223, 167);;
   }
 }
+@media (max-width:780px){
+  .landing .btn{
+    
+    width: 75px;
+    height: 25px;
+    font-size: 9px;
+    border-radius: 5px;
+  }
+}
